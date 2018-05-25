@@ -5,7 +5,10 @@
  *
  * Made By MaterializeCSS.com
  */
-
+ img {
+    -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
+}
 nav ul a,
 nav .brand-logo {
   color: #ffffff ;
@@ -20,7 +23,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 500px;
+  min-height: 400px;
   line-height: 10;
   height: auto;
   color: rgba(255,255,255,.9);
